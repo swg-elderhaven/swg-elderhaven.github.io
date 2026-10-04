@@ -107,7 +107,8 @@ button,input{font:inherit}
 .download-info strong{display:block;margin-bottom:5px}
 .download-info p{margin:4px 0;line-height:1.35}
 .ip-label{font-size:9px;font-weight:bold;letter-spacing:1px;margin-bottom:4px}
-.server-ip{background:#fff;padding:8px 7px;text-align:center;font:bold 15px/1.1 "Courier New",monospace;letter-spacing:.6px;user-select:all}
+.server-ip{background:#fff;padding:8px 7px;text-align:center;font:bold 12px/1.35 "Courier New",monospace;letter-spacing:.2px;user-select:all}
+.connection-screenshot{display:block;max-width:100%;height:auto;margin:8px auto}
 
 /* Long-form progression pages */
 .article-copy { font-size: 13px; line-height: 1.38; }
@@ -115,6 +116,7 @@ button,input{font:inherit}
 .article-copy p { margin: 7px 0; }
 .article-copy ul, .article-copy ol { margin: 6px 0 8px 26px; padding: 0; }
 .article-copy li { margin: 3px 0; }
+.waypoint-command { white-space: nowrap; user-select: all; }
 .retro-notice, .tldr-box { background: #ffffe1; border: 1px solid #808080; padding: 8px 10px; margin: 10px 0; }
 .tldr-box { background: #fff; }
 .system-table { background: #fff; padding: 5px; margin: 8px 0; }

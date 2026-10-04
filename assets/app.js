@@ -1,8 +1,7 @@
-/* SWG Elder Haven homepage
-   Public values can be filled in as they become available. */
+/* SWG Elder Haven website: public connection details. */
 const ELDER_HAVEN = {
   DISCORD_URL: "https://discord.gg/QUsTCQkw7",
-  SERVER_IP: "" // Add the public IP here when ready.
+  SERVER_IP: "207.244.229.181:44453"
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
