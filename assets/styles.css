@@ -68,7 +68,7 @@ button,input{font:inherit}
 @keyframes ticker{to{transform:translateX(-100%)}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker{animation:none;padding-left:0}}
 
-.tabbar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1px;padding:3px 1px 4px;background:var(--win-gray);border-bottom:1px solid #808080}
+.tabbar{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:1px;padding:3px 1px 4px;background:var(--win-gray);border-bottom:1px solid #808080}
 .tab{display:flex;align-items:center;justify-content:center;gap:5px;min-height:36px;padding:4px 4px;background:#c0c0c0;color:#111;text-decoration:none;font-size:10px;font-weight:bold;text-align:center}
 .tab:hover{background:#d0d0d0}.tab:active,.tab.active{border-top:2px solid var(--win-shadow);border-left:2px solid var(--win-shadow);border-right:2px solid #fff;border-bottom:2px solid #fff;background:#b8b8b8}.pixel-icon{font-size:18px;color:#000080;line-height:1}
 
