@@ -156,7 +156,7 @@ button,input{font:inherit}
 .feature-intro{margin:0 0 10px;padding:8px 9px;background:#e8e8e8;border:1px solid #808080;box-shadow:inset 1px 1px #fff,inset -1px -1px #b0b0b0}
 .feature-row{display:block;padding:8px 2px;border-top:1px dotted #808080}
 .feature-row:first-of-type{border-top:0}
-.feature-row h3{margin:0 0 3px;font-size:12px;color:#000080}
+.feature-row h3{display:inline-block;max-width:100%;margin:0 0 7px;padding:4px 7px;background:#d7d7d7;border:1px solid #808080;border-top-color:#fff;border-left-color:#fff;box-shadow:1px 1px 0 #aaa;font-size:13px;font-weight:bold;line-height:1.2;color:#000080}
 .feature-row h3 a{color:#000080}
 .feature-row p{margin:0;line-height:1.45}
 @media (max-width:650px){.feature-breakdown{padding:8px}}
