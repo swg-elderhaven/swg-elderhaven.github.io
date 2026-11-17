@@ -50,7 +50,10 @@ $('#poll-form')?.addEventListener('submit', (event) => {
     block.replaceChildren(led, heading, text);
     const phase = document.createElement('div'); phase.className = 'status-block';
     const phaseTitle = document.createElement('strong'); phaseTitle.textContent = 'PHASE:';
-    phase.append(phaseTitle, document.createTextNode(' ALPHA')); strip.append(phase);
+    const phaseText = document.createElement('span'); phaseText.textContent = 'ALPHA'; phaseText.style.marginLeft = '4px';
+    phase.append(phaseTitle, phaseText);
+    const separator = document.createElement('div'); separator.className = 'separator'; separator.setAttribute('aria-hidden', 'true');
+    strip.append(separator, phase);
     indicators.push({ led, text, block });
   });
   if (!indicators.length) return;
